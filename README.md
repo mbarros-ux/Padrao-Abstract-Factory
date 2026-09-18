@@ -9,11 +9,11 @@ Este projeto implementa o padrão Abstract Factory para criar **suites completas
 ### Contexto
 O sistema gerencia duas famílias de produtos de segurança:
 
-** Suite Básica:**
+**Suite Básica:**
 - Firewall Básico (regras padrão)
 - Antivírus Básico (varredura simples)
 
-** Suite Avançada:**
+**Suite Avançada:**
 - Firewall Next-Gen (inspeção profunda de pacotes)
 - Antivírus com Heurística e IA
 
@@ -85,13 +85,13 @@ O diagrama UML está disponível na imagem diagrama-abstract-factory.png e mostr
 - Os relacionamentos de implementação e dependência
 
 ### Diferença entre Factory Method e Abstract Factory
-```bash
+
 | Característica | Factory Method | Abstract Factory |
 |----------------|----------------|------------------|
 | **Escopo** | Cria **um** tipo de objeto | Cria **famílias** de objetos relacionados |
 | **Foco** | Delega criação para subclasses | Composição de múltiplas factories |
 | **Exemplo** | Criar uma ferramenta de segurança | Criar uma suite completa (Firewall + Antivírus) |
-```
+
 ### Tecnologias
 - Java 21
 - JUnit 5 (JUnit Jupiter)
